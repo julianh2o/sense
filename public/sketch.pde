@@ -1,7 +1,3 @@
-String processingString = "Hello from Processing!";
-
-void setup() {
-printMessage(jsString + " " + processingString);
-printMessage(globalaccelx + " " + processingString);
-
+void updateValues(accelx,accely) {
+  console.log("in processing",accelx,accely);
 }
